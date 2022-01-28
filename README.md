@@ -47,3 +47,9 @@ The app has unit tests and integration tests written. More of these need to be a
 To run the tests from maven, go to the folder that contains the pom.xml file and execute the below command.
 
 `mvn test`
+
+### Etape1 : Corriger les premier bug
+the correction of this bug included fixing the calculateFare method which used to take the amount of hours to perform the calculations
+now we take the millisecond convert them to minutes and do the math.
+
+the other thing was to fix the <descriptorRef> in the pom file.
